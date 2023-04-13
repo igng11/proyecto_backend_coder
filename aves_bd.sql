@@ -1,4 +1,4 @@
-CREATE TABLE aves (
+CREATE TABLE usuarios (
   id INT(11) NOT NULL AUTO_INCREMENT,
   nombre VARCHAR(255),
   email VARCHAR(255) NOT NULL UNIQUE,
@@ -6,7 +6,7 @@ CREATE TABLE aves (
   PRIMARY KEY (id)
 );
 
-CREATE TABLE usuarios (
+CREATE TABLE aves (
   id INT(11) NOT NULL AUTO_INCREMENT,
   nombre VARCHAR(255),
   color_principal VARCHAR(50) NOT NULL UNIQUE,
